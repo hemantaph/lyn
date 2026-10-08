@@ -1,0 +1,21 @@
+# Source spreadsheets and thesis documents (kept locally)
+*.[xX][lL][sS][xX]
+*.[dD][oO][cC][xX]
+~$*
+
+# Python and Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local environments and configuration
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# macOS metadata
+.DS_Store
+._*

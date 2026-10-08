@@ -1,0 +1,78 @@
+[
+  {
+    "file": "soil_distributions_1",
+    "caption": "Soil measurements from PCA.xlsx. Boxes pool ten records per lake-season across two years; points show every record, with circles for 2022 and triangles for 2023. Box/whisker conventions are described in the notebook. Different variables have different y scales; units are not specified in the source headers."
+  },
+  {
+    "file": "soil_distributions_2",
+    "caption": "Soil measurements from PCA.xlsx. Boxes pool ten records per lake-season across two years; points show every record, with circles for 2022 and triangles for 2023. Box/whisker conventions are described in the notebook. Different variables have different y scales; units are not specified in the source headers."
+  },
+  {
+    "file": "soil_distributions_3",
+    "caption": "Soil measurements from PCA.xlsx. Boxes pool ten records per lake-season across two years; points show every record, with circles for 2022 and triangles for 2023. Box/whisker conventions are described in the notebook. Different variables have different y scales; units are not specified in the source headers."
+  },
+  {
+    "file": "soil_distributions_4",
+    "caption": "Soil measurements from PCA.xlsx. Boxes pool ten records per lake-season across two years; points show every record, with circles for 2022 and triangles for 2023. Box/whisker conventions are described in the notebook. Different variables have different y scales; units are not specified in the source headers."
+  },
+  {
+    "file": "water_distributions_1",
+    "caption": "Water measurements from PCA.xlsx. Boxes pool ten records per lake-season across two years; points show every record, with circles for 2022 and triangles for 2023. Box/whisker conventions are described in the notebook. Different variables have different y scales; units are not specified in the source headers."
+  },
+  {
+    "file": "water_distributions_2",
+    "caption": "Water measurements from PCA.xlsx. Boxes pool ten records per lake-season across two years; points show every record, with circles for 2022 and triangles for 2023. Box/whisker conventions are described in the notebook. Different variables have different y scales; units are not specified in the source headers."
+  },
+  {
+    "file": "water_distributions_3",
+    "caption": "Water measurements from PCA.xlsx. Boxes pool ten records per lake-season across two years; points show every record, with circles for 2022 and triangles for 2023. Box/whisker conventions are described in the notebook. Different variables have different y scales; units are not specified in the source headers."
+  },
+  {
+    "file": "water_distributions_4",
+    "caption": "Water measurements from PCA.xlsx. Boxes pool ten records per lake-season across two years; points show every record, with circles for 2022 and triangles for 2023. Box/whisker conventions are described in the notebook. Different variables have different y scales; units are not specified in the source headers."
+  },
+  {
+    "file": "water_distributions_5",
+    "caption": "Water measurements from PCA.xlsx. Boxes pool ten records per lake-season across two years; points show every record, with circles for 2022 and triangles for 2023. Box/whisker conventions are described in the notebook. Different variables have different y scales; units are not specified in the source headers."
+  },
+  {
+    "file": "water_distributions_6",
+    "caption": "Water measurements from PCA.xlsx. Boxes pool ten records per lake-season across two years; points show every record, with circles for 2022 and triangles for 2023. Box/whisker conventions are described in the notebook. Different variables have different y scales; units are not specified in the source headers."
+  },
+  {
+    "file": "water_distributions_7",
+    "caption": "Water measurements from PCA.xlsx. Boxes pool ten records per lake-season across two years; points show every record, with circles for 2022 and triangles for 2023. Box/whisker conventions are described in the notebook. Different variables have different y scales; units are not specified in the source headers."
+  },
+  {
+    "file": "pca_soil_scree",
+    "caption": "Soil PCA of sample-SD-standardised measurements: variance explained by each component (bars) and cumulative percentage (line). All measured variables in this compartment are retained. Identifiers are excluded."
+  },
+  {
+    "file": "pca_water_scree",
+    "caption": "Water PCA of sample-SD-standardised measurements: variance explained by each component (bars) and cumulative percentage (line). All measured variables in this compartment are retained. Identifiers are excluded."
+  },
+  {
+    "file": "pca_soil_scores",
+    "caption": "Soil PCA scores for PC1 and PC2, with lake colours and season symbols. Both components are obtained from the same PCA of all 80 records. Both years are pooled; coincident observations may overlap. The plot is descriptive and does not test separation between groups."
+  },
+  {
+    "file": "pca_water_scores",
+    "caption": "Water PCA scores for PC1 and PC2, with lake colours and season symbols. Both components are obtained from the same PCA of all 80 records. Both years are pooled; coincident observations may overlap. The plot is descriptive and does not test separation between groups."
+  },
+  {
+    "file": "pca_soil_scores_by_year",
+    "caption": "Soil PCA scores for PC1 and PC2, with lake colours and season symbols. Both components are obtained from the same PCA of all 80 records. Year panels share limits and preserve equal x/y scale. The plot is descriptive and does not test separation between groups."
+  },
+  {
+    "file": "pca_water_scores_by_year",
+    "caption": "Water PCA scores for PC1 and PC2, with lake colours and season symbols. Both components are obtained from the same PCA of all 80 records. Year panels share limits and preserve equal x/y scale. The plot is descriptive and does not test separation between groups."
+  },
+  {
+    "file": "pca_soil_loadings",
+    "caption": "Correlation between each standardised soil variable and PC1-PC4. All variables are shown; raw workbook column names identify them. The same fixed -1 to +1 colour scale is used throughout. Signs of entire PCs may reverse without changing the PCA."
+  },
+  {
+    "file": "pca_water_loadings",
+    "caption": "Correlation between each standardised water variable and PC1-PC4. All variables are shown; raw workbook column names identify them. The same fixed -1 to +1 colour scale is used throughout. Signs of entire PCs may reverse without changing the PCA."
+  }
+]

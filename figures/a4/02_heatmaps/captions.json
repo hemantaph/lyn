@@ -1,0 +1,42 @@
+[
+  {
+    "file": "heatmap1_full",
+    "caption": "Soil carbon stock and soil variables. Reported Pearson correlations from Heatmap.xlsx / heatmap1; N = 80 records per pair. Upper-triangle duplicates are omitted. No significance stars are shown; repeated-site dependence and multiple comparisons are not adjusted. "
+  },
+  {
+    "file": "heatmap2_full",
+    "caption": "TBC and soil variables \u2014 reported coefficients. Reported Pearson correlations from Heatmap.xlsx / heatmap2; N = 80 records per pair. Upper-triangle duplicates are omitted. No significance stars are shown; repeated-site dependence and multiple comparisons are not adjusted. TBC response coefficients cannot be checked against authentic raw biomass data."
+  },
+  {
+    "file": "heatmap3_1",
+    "caption": "TBC and water variables \u2014 reported coefficients. Reported Pearson correlations from Heatmap.xlsx / heatmap3; N = 80 records per pair. Block 1 of 3; all three blocks are needed for the complete matrix. Upper-triangle duplicates are omitted. No significance stars are shown; repeated-site dependence and multiple comparisons are not adjusted. TBC response coefficients cannot be checked against authentic raw biomass data."
+  },
+  {
+    "file": "heatmap3_2",
+    "caption": "TBC and water variables \u2014 reported coefficients. Reported Pearson correlations from Heatmap.xlsx / heatmap3; N = 80 records per pair. Block 2 of 3; all three blocks are needed for the complete matrix. Upper-triangle duplicates are omitted. No significance stars are shown; repeated-site dependence and multiple comparisons are not adjusted. TBC response coefficients cannot be checked against authentic raw biomass data."
+  },
+  {
+    "file": "heatmap3_3",
+    "caption": "TBC and water variables \u2014 reported coefficients. Reported Pearson correlations from Heatmap.xlsx / heatmap3; N = 80 records per pair. Block 3 of 3; all three blocks are needed for the complete matrix. Upper-triangle duplicates are omitted. No significance stars are shown; repeated-site dependence and multiple comparisons are not adjusted. TBC response coefficients cannot be checked against authentic raw biomass data."
+  },
+  {
+    "file": "heatmap4_1",
+    "caption": "Phytoplankton carbon and water variables. Reported Pearson correlations from Heatmap.xlsx / heatmap4; N = 80 records per pair. Block 1 of 3; all three blocks are needed for the complete matrix. Upper-triangle duplicates are omitted. No significance stars are shown; repeated-site dependence and multiple comparisons are not adjusted. "
+  },
+  {
+    "file": "heatmap4_2",
+    "caption": "Phytoplankton carbon and water variables. Reported Pearson correlations from Heatmap.xlsx / heatmap4; N = 80 records per pair. Block 2 of 3; all three blocks are needed for the complete matrix. Upper-triangle duplicates are omitted. No significance stars are shown; repeated-site dependence and multiple comparisons are not adjusted. "
+  },
+  {
+    "file": "heatmap4_3",
+    "caption": "Phytoplankton carbon and water variables. Reported Pearson correlations from Heatmap.xlsx / heatmap4; N = 80 records per pair. Block 3 of 3; all three blocks are needed for the complete matrix. Upper-triangle duplicates are omitted. No significance stars are shown; repeated-site dependence and multiple comparisons are not adjusted. "
+  },
+  {
+    "file": "carbon_response_soil",
+    "caption": "Soil environmental variables versus carbon responses: coefficients as reported in Heatmap.xlsx. Each entry uses 80 records. TBC coefficients are not verified against raw biomass data. Values are pooled associations, not season- or site-adjusted effects."
+  },
+  {
+    "file": "carbon_response_water",
+    "caption": "Water environmental variables versus carbon responses: coefficients as reported in Heatmap.xlsx. Each entry uses 80 records. TBC coefficients are not verified against raw biomass data. Values are pooled associations, not season- or site-adjusted effects."
+  }
+]

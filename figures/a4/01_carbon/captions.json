@@ -1,0 +1,58 @@
+[
+  {
+    "file": "seasonal_Soil_stock",
+    "caption": "Soil carbon stock by lake, year and season. Small points are site values; lines show means and bars show sample SD across five sites. Equal site weighting; repeated sites across seasons. Source: Scatter Plot.xlsx. Unit: Mg C per hectare."
+  },
+  {
+    "file": "seasonal_Phyto_carbon",
+    "caption": "Phytoplankton carbon by lake, year and season. Small points are site values; lines show means and bars show sample SD across five sites. Equal site weighting; repeated sites across seasons. Source: Scatter Plot.xlsx. Phytoplankton-carbon unit is not supplied."
+  },
+  {
+    "file": "seasonal_TBC_reported_only",
+    "caption": "Reported TBC means from Scatter Plot.xlsx, Line_Graph. The monsoon mean is highest in both lakes and years. Units and the meaning of the supplied +/- values are unconfirmed, so no error bars are drawn. The TBC-labelled raw block duplicates TDS and is excluded."
+  },
+  {
+    "file": "scatter_Soil_stock_Soil_Temp",
+    "caption": "Soil carbon stock versus Soil temperature. Panels separate lakes; seasons use different symbols. Both years are included (40 records per lake). X limits are shared, but y limits are lake-specific; apparent slopes should not be compared across panels. Numeric values are unaltered. Environmental units are not supplied."
+  },
+  {
+    "file": "scatter_Soil_stock_Soil_pH",
+    "caption": "Soil carbon stock versus Soil pH. Panels separate lakes; seasons use different symbols. Both years are included (40 records per lake). X limits are shared, but y limits are lake-specific; apparent slopes should not be compared across panels. Numeric values are unaltered. Environmental units are not supplied."
+  },
+  {
+    "file": "scatter_Soil_stock_BD",
+    "caption": "Soil carbon stock versus Bulk density. Panels separate lakes; seasons use different symbols. Both years are included (40 records per lake). X limits are shared, but y limits are lake-specific; apparent slopes should not be compared across panels. Numeric values are unaltered. Environmental units are not supplied."
+  },
+  {
+    "file": "scatter_Soil_stock_Moisture",
+    "caption": "Soil carbon stock versus Soil moisture. Panels separate lakes; seasons use different symbols. Both years are included (40 records per lake). X limits are shared, but y limits are lake-specific; apparent slopes should not be compared across panels. Numeric values are unaltered. Environmental units are not supplied."
+  },
+  {
+    "file": "scatter_Soil_stock_SOC",
+    "caption": "Soil carbon stock versus Soil organic carbon (SOC). Panels separate lakes; seasons use different symbols. Both years are included (40 records per lake). X limits are shared, but y limits are lake-specific; apparent slopes should not be compared across panels. Numeric values are unaltered. Environmental units are not supplied."
+  },
+  {
+    "file": "scatter_Soil_stock_N",
+    "caption": "Soil carbon stock versus Available nitrogen. Panels separate lakes; seasons use different symbols. Both years are included (40 records per lake). X limits are shared, but y limits are lake-specific; apparent slopes should not be compared across panels. Numeric values are unaltered. Environmental units are not supplied."
+  },
+  {
+    "file": "scatter_Soil_stock_P",
+    "caption": "Soil carbon stock versus Available phosphorus. Panels separate lakes; seasons use different symbols. Both years are included (40 records per lake). X limits are shared, but y limits are lake-specific; apparent slopes should not be compared across panels. Numeric values are unaltered. Environmental units are not supplied."
+  },
+  {
+    "file": "scatter_Soil_stock_K",
+    "caption": "Soil carbon stock versus Available potassium. Panels separate lakes; seasons use different symbols. Both years are included (40 records per lake). X limits are shared, but y limits are lake-specific; apparent slopes should not be compared across panels. Numeric values are unaltered. Environmental units are not supplied."
+  },
+  {
+    "file": "scatter_Phyto_carbon_Water_Temp",
+    "caption": "Phytoplankton carbon versus Water temperature. Panels separate lakes; seasons use different symbols. Both years are included (40 records per lake). X limits are shared, but y limits are lake-specific; apparent slopes should not be compared across panels. Numeric values are unaltered. Environmental units are not supplied."
+  },
+  {
+    "file": "scatter_Phyto_carbon_CO2",
+    "caption": "Phytoplankton carbon versus Free CO$_2$. Panels separate lakes; seasons use different symbols. Both years are included (40 records per lake). X limits are shared, but y limits are lake-specific; apparent slopes should not be compared across panels. Numeric values are unaltered. Environmental units are not supplied."
+  },
+  {
+    "file": "scatter_Phyto_carbon_Hardness",
+    "caption": "Phytoplankton carbon versus Total hardness. Panels separate lakes; seasons use different symbols. Both years are included (40 records per lake). X limits are shared, but y limits are lake-specific; apparent slopes should not be compared across panels. Numeric values are unaltered. Environmental units are not supplied."
+  }
+]
