@@ -35,14 +35,14 @@ def read_block(ws, header_row, site_column, variable):
                         raise ValueError(f"Non-numeric measurement: {ws.title}!{cell.coordinate}")
                     records.append(dict(Wetland=match[1], Year=int(match[2]), Season=season,
                                         Site=int(site), **{variable:float(cell.value)},
-                                        Source=f"Scatter Plot.xlsx / {ws.title}!{cell.coordinate}"))
+                                        Source=f"Scatter Plot (1).xlsx / {ws.title}!{cell.coordinate}"))
     result = pd.DataFrame(records)
     assert len(result) == 80 and not result.duplicated(KEYS).any()
     return result
 
 
 def load_scatter(root=ROOT):
-    wb = load_workbook(root / "Scatter Plot.xlsx", data_only=True)
+    wb = load_workbook(root / "Scatter Plot (1).xlsx", data_only=True)
     specs = {
         "Soil_stock": ("ScatterPlot1",4,4),
         "Soil_Temp": ("ScatterPlot1",6,18),
@@ -52,7 +52,7 @@ def load_scatter(root=ROOT):
         "N": ("ScatterPlot1",78,18),
         "P": ("ScatterPlot1",96,18),
         "K": ("ScatterPlot1",114,18),
-        "TBC_block_unverified": ("ScatterPlot2",4,36),
+        "TBC": ("ScatterPlot2",4,36),
         "Phyto_carbon": ("ScatterPlot3",8,9),
         "Water_Temp": ("ScatterPlot3",26,9),
         "CO2": ("ScatterPlot3",44,9),
@@ -87,7 +87,7 @@ def decode_pca(frame):
 
 
 def load_line_summary(root=ROOT):
-    ws = load_workbook(root / "Scatter Plot.xlsx",data_only=True)["Line_Graph"]
+    ws = load_workbook(root / "Scatter Plot (1).xlsx",data_only=True)["Line_Graph"]
     rows = []
     for variable, start in [("Soil_stock",3),("TBC",8),("Phyto_carbon",13)]:
         for i in range(4):
@@ -97,7 +97,7 @@ def load_line_summary(root=ROOT):
                 rows.append(dict(Variable=variable, Wetland=WETLANDS[i//2],
                                  Year=int(ws.cell(r,5).value),Season=season,
                                  Mean=mean,Reported_spread=spread,
-                                 Source=f"Scatter Plot.xlsx / Line_Graph!{ws.cell(r,c).coordinate}"))
+                                 Source=f"Scatter Plot (1).xlsx / Line_Graph!{ws.cell(r,c).coordinate}"))
     return pd.DataFrame(rows)
 
 
